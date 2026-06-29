@@ -1,4 +1,5 @@
 node_modules/
 .gstack/
 *.log
-
+!test/fixtures/logs/
+!test/fixtures/logs/*.log
