@@ -1,0 +1,16 @@
+{
+  "name": "mcp-doctor",
+  "version": "0.1.0",
+  "description": "Claude Desktop MCP setup doctor for Windows.",
+  "private": true,
+  "bin": {
+    "mcp-doctor": "bin/mcp-doctor.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

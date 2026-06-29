@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "missingRuntime": {
+      "command": "definitely-not-real-mcp-runtime"
+    }
+  }
+}
+
