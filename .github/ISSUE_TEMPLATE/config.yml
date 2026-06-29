@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Do not paste secrets
+    url: https://github.com/AndyZhang2-creator/mcp-doctor/security
+    about: Remove API keys, tokens, bearer values, and private config before posting.

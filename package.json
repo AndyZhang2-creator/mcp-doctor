@@ -1,11 +1,34 @@
 {
-  "name": "mcp-doctor",
+  "name": "claude-mcp-doctor",
   "version": "0.1.0",
-  "description": "Claude Desktop MCP setup doctor for Windows.",
-  "private": true,
+  "description": "Local Claude Desktop MCP setup doctor for Windows.",
+  "license": "MIT",
+  "homepage": "https://github.com/AndyZhang2-creator/mcp-doctor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndyZhang2-creator/mcp-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndyZhang2-creator/mcp-doctor/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "claude-desktop",
+    "windows",
+    "diagnostics",
+    "developer-tools"
+  ],
   "bin": {
     "mcp-doctor": "bin/mcp-doctor.js"
   },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "node --test"
   },
@@ -13,4 +36,3 @@
     "node": ">=20"
   }
 }
-
